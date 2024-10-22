@@ -1,0 +1,26 @@
+.b{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 200px;
+    width: 200px;
+    border: 3%;
+    border-radius: 3px;
+    box-shadow: 8px 8px 10px rgb(53, 23, 23);
+    text-align: center;
+    margin-left: 70px;
+    background: linear-gradient(to right,#12c2e9, #c471ed, #f64f59);
+
+}
+.btn{
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    
+}
+ .b:hover{
+ box-shadow:0 10px 20px rgba( 0,0,5,18) ;
+ }
+ .btn:hover{
+    box-shadow: 0 3px 6px 10px rgb(25, 37, 13);
+ }
+

@@ -1,0 +1,39 @@
+.b1{
+    background-color: rgb(151, 189, 190);
+    
+  
+}
+
+
+.img22{
+    height: 30px;
+    gap: 5px;
+}
+#b2:hover{
+background-color: rgb(28, 28, 122);
+cursor: pointer;
+
+}
+#b3:hover{
+    background-color: rgb(64, 64, 70);
+    cursor: pointer;
+    
+    }
+
+    #b4:hover{
+        background-color: rgb(36, 36, 233);
+        cursor: pointer;
+        
+        }
+
+        #b5:hover{
+            background-color: rgb(245, 15, 15);
+            cursor: pointer;
+            
+            }
+
+            #b6:hover{
+                background-color: rgb(211, 67, 32);
+                cursor: pointer;
+                
+                }

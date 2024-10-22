@@ -1,0 +1,128 @@
+.h22{
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 5px 5px 10px #333;
+    background-image: url("./tex.jpeg");
+    background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.jb{
+    border: 2px solid black;
+    border-radius: 1px;
+    border: none;
+    background-color: rgb(58, 65, 45);
+    color: aliceblue;
+    margin-top: 5px;
+}
+.jb:hover{
+box-shadow: 0 3px 6px 10px #342;
+}
+
+
+.ch{
+    position: relative;
+    overflow: hidden;
+}
+.ch::before,.ch::after{
+    content: "";
+    height: 50%;
+    width: 100%;
+    background: linear-gradient(to right,#12c2e9, #c471ed, #f64f59);
+   opacity: 0.8;
+   position: absolute;
+   top: -50%;
+   left: 0;
+   z-index: 1;
+   transition: all 0.3s ease-in  0s;
+}
+
+.ch::after{
+    top: auto;
+    bottom: -50%;
+}
+
+.ch:hover::before{
+    top: 0; 
+}
+.ch:hover::after{
+    bottom: 0;
+}
+
+
+.cbb{
+    /* color: #fff; */
+    text-align: center;
+   width: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    z-index: 2;
+    transition: all 0.3s ease-out  1s;
+
+}
+.cbb:hover{
+    opacity: 5;
+    top: 10%;
+}
+
+.icon{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.tw{
+    height: 35px;
+    width: 35px;
+    gap: 5px;
+
+}
+.fb{
+    height: 35px;
+    width: 35px;
+}
+.ln{
+    height: 35px;
+    width: 35px;
+    gap: 5px;
+}
+
+.tw:hover{
+  
+    color: rgb(48, 6, 116);
+    overflow: hidden;
+}
+.tw:hover{
+  
+  box-shadow:0px 1px 1px 6px #c6e4eb;
+  cursor: pointer;
+}
+
+.ln:hover{
+  
+    color: rgba(58, 10, 233, 0.911);
+    overflow: hidden;
+}
+.ln:hover{
+  
+  box-shadow:0px 1px 1px 6px #c6e4eb;
+  cursor: pointer;
+}
+
+.fb:hover{
+  
+    color: rgb(43, 67, 202);
+    overflow: hidden; 
+}
+.fb:hover{
+  
+  box-shadow:0px 1px 1px 6px #c6e4eb;
+  cursor: pointer;
+}
+@media only screen and (max-width:767px){
+    .ch{
+        margin-bottom: 30px;
+    }
+}
